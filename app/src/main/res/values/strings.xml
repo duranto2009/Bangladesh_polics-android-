@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BD police</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="long_random_text">
+         On three thing chief years in money arise of.
+    </string>
+    <string name="password_hint">Password</string>
+    <string name="password_confirm_hint">Confirm Password</string>
+    <string name="msg_sms_verification_limit_exceeded">Number already exits</string>
+
+</resources>

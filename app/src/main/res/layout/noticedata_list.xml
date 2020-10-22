@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relativelayout"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_marginBottom="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="119dp"
+            android:padding="4dp"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Md. billal Hossain Biplob"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="12-12-2020"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewsubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDate"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="submite date : 10-12-2020"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@color/colorAccent1"
+            android:textColor="@color/cardview_light_background"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="center|left"/>
+        <TextView
+            android:id="@+id/messagetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:maxLength="45"
+            android:ellipsize="end"
+            android:text="fuhvr rtiohpitgh ihprtih poyjh yphj 0h ywfgwrgfowoh"
+            android:layout_below="@id/textViewsubject"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:background="@color/cardview_light_background"
+            android:textColor="@color/cardview_dark_background"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="center|left"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
